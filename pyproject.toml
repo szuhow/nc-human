@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nc-human"
+version = "0.1.0"
+description = ""
+authors = ["rafalszu-ives <rafal.szulinski@ives-system.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nc-py-api = "^0.3.1"
+pillow = "^10.0.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
