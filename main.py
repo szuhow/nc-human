@@ -7,6 +7,7 @@ from PIL import Image  # this example requires `pillow` to be installed
 import os
 if __name__ == "__main__":
     load_dotenv()
+    print("halos")
     api_url = os.getenv("API_URL")
     api_login = os.getenv("API_LOGIN")
     api_password = os.getenv("API_PASSWORD")
